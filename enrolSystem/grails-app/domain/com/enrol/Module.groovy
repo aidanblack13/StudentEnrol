@@ -2,19 +2,21 @@ package com.enrol
 
 class Module {
 
+Lecturer lecturer
+
 String title
 
 String code
 
 int credits
 
-String lecturer
-
 String course
 
 String description
 
+static hasMany=[courses:Course,student:Student]
 
+static belongsTo=[Course,Student]
 
     static constraints = {
 

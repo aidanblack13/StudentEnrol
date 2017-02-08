@@ -2,6 +2,8 @@ package com.enrol
 
 class Student {
 
+Course course
+
 String name
 
 String studentID
@@ -16,7 +18,7 @@ String username
 
 String password
 
-String course
+static hasMany=[modules:Module]
 
     static constraints = {
 	

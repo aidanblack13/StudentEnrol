@@ -30,6 +30,8 @@ double calculateFees(){
 }
 
 
+static hasMany=[students:Student,lecturers:Lecturer,modules:Module]
+
     static constraints = {
 	title blank:false, nullable:false
 
