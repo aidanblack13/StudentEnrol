@@ -45,7 +45,7 @@ static hasMany=[students:Student,lecturers:Lecturer,modules:Module]
 	
 	startDate blank:false, nullable:false 
 	
-	studyMode blank:false, nullable:false, size:20..20
+	studyMode blank:false, nullable:false, size:5..20
 	
 	description blank:false, nullable:false, maxSize: 5000, widget: 'textarea'
 
