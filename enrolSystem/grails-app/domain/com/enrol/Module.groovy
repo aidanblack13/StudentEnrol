@@ -30,4 +30,10 @@ static belongsTo=[Course,Student]
 
 	description blank:false, nullable:false, maxSize: 5000, widget:'textarea'
     }
+
+String toString(){
+return title
+
+}
+
 }

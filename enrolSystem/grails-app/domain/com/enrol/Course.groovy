@@ -51,4 +51,9 @@ static hasMany=[students:Student,lecturers:Lecturer,modules:Module]
 
 	tuitionFees blank:false, nullable:false, scale: 2
     }
+
+String toString(){
+return title
+}
+
 }

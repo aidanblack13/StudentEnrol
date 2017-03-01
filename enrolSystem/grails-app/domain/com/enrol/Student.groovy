@@ -38,4 +38,10 @@ static hasMany=[modules:Module]
 
 	course blank:false, nullable:false
     }
+
+String toString(){
+return name
+
+}
+
 }

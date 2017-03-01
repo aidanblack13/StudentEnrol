@@ -42,4 +42,9 @@ static belongsTo=Course
 
 	
     }
+
+String toString(){
+return fullName
+}
+
 }
