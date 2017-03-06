@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Welcome to Grails</title>
+    <title>Welcome to Sreda</title>
 
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 </head>
@@ -50,6 +50,16 @@
 		<g:link controller="lecturer" action="create">Lecturer</g:link>
 	</button>
 </div>
+
+<div class="second">
+
+		<h3>Lecturer Information</h3>
+<p>Sed malis debitis omittantur at, qui ex case dicam altera. Suas facer gubergren ex est. Duo nonumy dicunt periculis ad, an vis ocurreret maiestatis voluptatibus, eam ut tractatos dignissim. Ad eum paulo reprehendunt.</p>
+	<button type="button" class="btn btn-success">
+		<g:link controller="student" action="search">Search</g:link>
+	</button>
+</div>
+
 
 </div>
 
